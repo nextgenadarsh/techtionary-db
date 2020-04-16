@@ -1,2 +1,1 @@
-# techtionary-db
-Techtionary Database
+# Techtionary Database

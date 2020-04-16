@@ -1,0 +1,22 @@
+[
+    {
+        "id": "",
+        "label": "",
+        "iconUrl": ""
+    },
+    {
+        "id": "angular",
+        "label": "Angular",
+        "iconUrl": "https://angular.io/assets/images/favicons/favicon-144x144.png"
+    },
+    {
+        "id": "dotnetcore",
+        "label": ".Net Core",
+        "iconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg"
+    },
+    {
+        "id": "reactjs",
+        "label": "ReactJs",
+        "iconUrl": "https://reactjs.org/favicon.ico"
+    }
+]
