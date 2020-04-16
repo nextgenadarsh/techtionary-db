@@ -1,10 +1,5 @@
 [
     {
-        "id": "",
-        "label": "",
-        "iconUrl": ""
-    },
-    {
         "id": "angular",
         "label": "Angular",
         "iconUrl": "https://angular.io/assets/images/favicons/favicon-144x144.png"
