@@ -1,2 +1,0 @@
-# Jest - React Testing Framework
-
