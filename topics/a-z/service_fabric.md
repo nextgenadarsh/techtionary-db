@@ -7,6 +7,8 @@
   - Scalable applications
   - Manageable applications
   - Testable application
+- offers multiple ways in which we can write and manage our services.
+- Services can be any compiled executable program written in any language or code running in a container that is hosted on a Service Fabric cluster.
 
 ## Service Fabric Sub-systems
 
@@ -62,3 +64,35 @@
 
 - Provides a list of tools for developers, deployment engineers, and testers so that they can introduce controlled faults and run test scenarios to validate state transitions and behaviors of services that have been deployed on service fabric
 - Fault analysis service is automatically started when a cluster is provisioned or when a fault action or test scenario has initiated a command
+
+## Service Farbric Cluster Resource Manager
+
+- can be a central service that runs within our clusters
+- manages the specified state of the services within the cluster; with relevant resource consumption and placement rules
+
+## Service Fabric Programming Models
+
+### Guest Executable
+
+- existing executable that can be written in any language, and it can be run as a service in application.
+- Service Fabric APIs have not been used by these guest executables
+
+### Container
+
+- is a part of the complete filesystem and contains tools, the runtime, and system libraries
+
+### Reliable services
+
+- is a lightweight framework for writing services that integrate with service fabric platform and use its features
+- provide a minimal set of APIs that allow the service fabric runtime to manage the life cycle of services to enable interaction with runtime
+- Application framework is minimal, so that you have full control over design and implementation choices. It can also be used to host any other app framework such as ASP.NET Core.
+
+### ASP.NET Core
+
+- is an open source and cross-platform framework that we can use to build web apps, IoT apps, and mobile backends
+- Service fabric integrates with ASP.NET Core so that we can write both stateless and stateful apps that can take advantage of reliable collections and service fabric's advanced orchestration capabilities
+
+### Reliable Actors
+
+- build on top of reliable services, is an application framework that implements the Virtual Actor pattern, based on the actor design pattern
+- framework uses independent units of compute and state with a single-threaded execution called actors. It provides built-in communication for actors and preset state persistence and scale-out configurations.
