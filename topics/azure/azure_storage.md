@@ -2,9 +2,19 @@
 
 ## Types
 
-### Azure SQL Database
+### Azure Blob Storage
 
-### Table Storage
+- Used to store unstructured data as a BLOB (`Binary Large Object`)
 
-### Cosmos DB
+### Azure Table Storage
+
+- Used to store NoSQL, semi-structured data
+
+### Azure Files
+
+- File sharing service that enables access through the SMB (Server Message Block) Protocol, similar to traditional file server.
+
+### Azure Data Lake Storage
+
+- 
 
