@@ -1,9 +1,6 @@
 # Events-First Domain-Driven Design (EF DDD)
 
-#domain-driven-design
-
 - Focus on "What Happens": The Events
-
 
 ## Terminologies
 

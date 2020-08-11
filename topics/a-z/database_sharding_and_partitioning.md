@@ -2,7 +2,7 @@
 
 - Choose database sharding over partitioning
 
-## Database `sharding` 
+## Database `sharding (Shared & Spreading)` 
 
 - means `shard and spread`
 - break big database `into smaller databases` and spread to different servers
